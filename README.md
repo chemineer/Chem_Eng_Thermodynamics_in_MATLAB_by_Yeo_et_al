@@ -1,1 +1,1 @@
-# MATLAB-_-_-_-_by_YeongKoo_Yeo-
+# MATLAB을_이용한_화학공학_열역학_by_YeongKoo_Yeo등
