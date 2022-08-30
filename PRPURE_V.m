@@ -22,8 +22,8 @@ Pr=P/Pc;    %reduced pressure
 k=0.37464 + 1.54226*w - 0.26993*w^2;
 alpha=(1+k*(1-Tr^0.5))^2;
 ac=0.45723553*(R^2*Tc^2)/Pc;
-a=ac*alpha;
-b=0.07779607*R*Tc/Pc;
+a=ac*alpha;                          % bar cm^6/gmol^2
+b=0.07779607*R*Tc/Pc;                % cm^3/gmol
 
 A=(a*P) / (R^2 * T^2);
 B=(b*P) / (R*T);
